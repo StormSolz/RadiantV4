@@ -1,6 +1,6 @@
 --* Script Info *--
-local script_version_number = "v4"
-local last_updated = "03/02/2023"
+local script_version_number = "V4 Beta"
+local last_updated = "2 Fucking Seconds Ago"
 
 --* Setup Script *--
 repeat wait() until game:IsLoaded() 
