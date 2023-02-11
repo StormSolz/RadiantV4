@@ -1365,19 +1365,19 @@ ChatScript.CreateMessageLabel = function(...)
         if Message:lower():find("[system]") and Message:lower():find(plr.Name:lower()) then
             if Message:find("by ".. plr.Name) then
                 if library.flags["removeKilledBy"] then
-                    Args[2].Message = "[System] Get better bruh - from INFINITY Owner"
+                    Args[2].Message = "[System] Get better, Get Radiant"
                 end
                 PlayerKilled = true
                 if library.flags["killmessageEnabled"] then
                     local args = {
-                        [1] = library.flags["Kill Message"] or "Get better bruh - from INFINITY User",
+                        [1] = library.flags["Kill Message"] or "Buy Radiant Or 0 Bitches",
                         [2] = "Global"
                     }
                     game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
                 end
             else
                 if library.flags["removeKilledBy"] then
-                    Args[2].Message = "[System] INFINITY user died to a config issue"
+                    Args[2].Message = "[System] Radiant User Died To Lag"
                 end
                 PlayerKilled = false
             end
